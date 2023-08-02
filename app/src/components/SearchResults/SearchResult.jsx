@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { BASE_URL, Button, Container } from "../../App";
 const SearchResult = ({ data }) => {
+  console.log(data, "in search");
   return (
     <FoodCardContainer>
       <Container>
